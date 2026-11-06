@@ -1,8 +1,8 @@
 body { 
-    background-color: #f4f6f9;
+    background-color: #86b2f3;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    color: #333333;
+    color: #0e0b27;
     line-height: 1.6;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 #titulo {
-    color: #ffffff;
+    color: #27c2ff;
     font-size: 28px;
     text-align: center;
 }
