@@ -21,6 +21,7 @@ body {
 #titulo {
     color: #ffffff;
     font-size: 28px;
+    text-align: center;
 }
 
 p {
@@ -31,8 +32,9 @@ p {
 .imgcentro {
     display: block;
     margin: 20px auto;
-    max-width: 100%;
-    height: auto;
+    width: 300px; 
+    height: 350px; 
+    object-fit: cover; 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -40,11 +42,12 @@ p {
 ul {
     font-size: 16px;
     padding: 0;
+    text-align: center;
 }
 
 li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 li a {
@@ -59,7 +62,8 @@ li a:hover {
     text-decoration: underline;
 }
 
-button {
+button, .btn-voltar {
+    display: inline-block;
     font-size: 16px;
     color: #ffffff;
     background-color: #6366f1;
@@ -67,9 +71,11 @@ button {
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
+    text-decoration: none;
+    margin: 20px;
 }
 
-button:hover {
+button:hover, .btn-voltar:hover {
     background-color: #4338ca;
 }
 
