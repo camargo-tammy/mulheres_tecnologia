@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     color: #0e0b27;
     line-height: 1.6;
+    padding-bottom: 80px; /* Garante que o rodapé fixo não cubra o final da página */
 }
 
 .cabecalho {
@@ -82,10 +83,16 @@ button:hover, .btn-voltar:hover {
 footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     background-color: #1e293b;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
     padding: 12px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
     text-align: center;
 }
